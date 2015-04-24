@@ -1,0 +1,40 @@
+{
+  "name": "gulpless",
+  "version": "0.1.0",
+  "description": "figuring out less for my workflows",
+  "main": "gulpless.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "less",
+    "twitter",
+    "bootstrap",
+    "gulp",
+    "bower"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EnergeticPixels/gulpPG.git"
+  },
+  "bugs": {
+    "url": "https://github.com/EnergeticPixels/gulpPG/issues",
+    "email": "energeticpixels@gmail.com"
+  },
+  "engines": {
+    "node": ">=0.10.3"
+  },
+  "author": "Anthony Jackman <energeticpixels@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "bower": "^1.4.1",
+    "gulp": "git://github.com/gulpjs/gulp.git#4.0",
+    "gulp-autoprefixer": "^2.2.0",
+    "gulp-less": "^3.0.3",
+    "gulp-minify-css": "^1.1.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-util": "^3.0.4"
+  }
+}
